@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+
+:root{
+  --nav-color: #3E4759;
+  --nav-color-2: #2D2E33;
+  --active-links-prpl: #C169FF;
+  --review-colour: #FFFF05;
+  --roboto-font: 'Roboto', sans-serif;
+  --heading-font: 'Anton', sans-serif;
+}
+
+label{
+  color: whitesmoke;
+}
+
+h1{
+  text-align: center;
+  font-family: var(--heading-font);
+  
+}
+h2{
+  color: white;
+  text-transform: uppercase;
+  font-family: var(--heading-font);
+}
+h3{
+text-align: center;
+}
+h4{
+  font-family: var(--heading-font);
+  color: white;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+header{
+  background-color: var(--nav-color-2);
+  padding: 1em;
+  margin: 0em;
+  
+}
+a{
+  text-decoration: none;
+}
+
+
+footer{
+  background-color: var(--nav-color-2);
+  padding-top: 0em;
+  margin: 0;
+  position: relative;
+}
+
+body{
+  background-image:
+   url(/img/Explore\ the\ wilds\ of\ Skyrim\ in\ these\ slick\ new\ art\ prints.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center; 
+}
+
+
+.logo{
+  padding-left: 45%;
+}
+
+.top-bar{
+  padding-left: 130%;
+  padding-top: 0.9em;
+}
+
+
+.store-list{
+
+  list-style: none;
+  display: grid;
+  grid-template-columns: 0.1fr 0.1fr 0.1fr;
+  grid-gap: 4em;
+
+}
+
+.store-links{
+  text-decoration: none;
+  font-size: 1.4em;
+  color: white;
+  border-block-end: thin solid white;
+  font-family: var(--heading-font);
+  
+}
+
+.store-links:hover{
+  color: var(--active-links-prpl);
+}
+
+.store-navigation{
+ 
+   display: inline-block;
+   padding-bottom: 0.5em;
+
+ 
+}
+
+.store-second-nav{
+  margin-top: 2em;
+  margin-left: 15%;
+  position: relative;
+  display: inline-block;
+  border: thin solid black;
+  background-color: var(--nav-color);
+  width: 1000px;
+
+}
+
+.second-store-links{
+  font-family: var(--roboto-font);
+  color: white;
+}
+.store-content-list{
+  padding-left: 30%;
+  position: relative;  
+  list-style: none;
+  display: grid;
+  grid-template-columns: 0.1fr 0.1fr 0.1fr 0.4fr;
+  grid-gap: 1em;
+ 
+}
+
+.second-store-links:hover{
+  color: var(--active-links-prpl);
+}
+
+.game-links:hover{
+  color: var(--active-links-prpl);
+  cursor: pointer;
+  text-transform: uppercase;
+  
+}
+
+.games-menu{
+  padding-left:550px;
+ position: fixed;
+ z-index: 999998;
+}
+
+.closed2{
+  display: none;
+}
+
+.game-category{
+  background-color: var(--nav-color);
+  list-style: none;
+  border: thin solid white;
+  width: 140px;
+}
+
+.game-links{
+  color:white;
+}
+
+.costt::before{
+  content: "$";
+}
+
+.input{
+  padding-top: 1em;
+}
+
+
+.menu-links{
+  text-decoration: none;
+  font-size: 1.2em;
+  text-transform: capitalize;
+  color: white;
+
+
+}
+
+
+.your-store{
+  padding-left: 25em;
+/*padding-bottom: 1000px; */
+position: fixed;
+z-index: 9999999;
+}
+
+.your-store-menu{
+  padding: 1.2em;
+  border: thin solid white;
+  width: 110px;
+  background-color: var(--nav-color);
+  list-style: none;
+}
+
+.menu-links{
+  margin: 1em;
+  font-size: 0.9em;
+
+}
+
+.menu-links:hover{
+  color: var(--active-links-prpl);
+}
+
+.closed{
+  display: none;
+}
+
+.game0{
+  border: thin solid whitesmoke;
+  width: 200px;
+  height: 300px;
+  background-image: url(/img/Sung\ Choi\ _\ Concept\ Art\ World.jpeg);
+  background-size: cover;
+  opacity: 0.9;
+  
+}
+
+.game1{
+  
+  width: 200px;
+  height: 300px;
+ /* background-image: url(/img/cyber-punk-2077-2.jpeg);  */
+  background-size: cover;
+} 
+.games{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  padding-left: 5%;
+  grid-gap: 1em;
+  margin-top: 2em;
+}
+
+.publisher{
+  color: var(--active-links-prpl);
+  font-size: 1.1em;
+}
+
+.review{
+  color: var(--review-colour);
+  font-family: 1.1em;
+}
+
+.game-info{
+  color:white;
+  font-size: 1.2em;
+}
+
+.publisher{
+  text-decoration: underline;
+  font-family: var(--roboto-font);
+}
+
+.btn{
+  padding-top: 6em;
+}
+.card-btn{
+  background-color: lightgreen;
+  color: white;
+  height:2.5em;
+  border: thin solid whitesmoke;
+}
+.game-section{
+  list-style:none;
+}
+
+.policy-links{
+  padding-left: 20%;
+}
+
+.information-list{
+  list-style: none;
+  display: grid;
+  grid-template-columns: 0.3fr 0.3fr 0.3fr ;
+}
+
+.info{
+  color: white;
+  font-size: 1.1em;
+  text-decoration: none;
+
+}
+
+.info:hover{
+  color: var(--active-links-prpl);
+}
+
+
+.social-media-block{
+  display: grid;
+  grid-template-columns: 1fr  1fr 1fr;
+  list-style: none;
+  padding-left: 20%;
+}
+
+.copyright{
+  color: white;
+  font-family: var(--roboto-font);
+  font-size: 1.1em;
+  text-align: center;
+  
+
+}
+
+
+@media screen and(min-width: 760px){
+
+  .games{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+}

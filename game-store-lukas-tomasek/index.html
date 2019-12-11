@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Lukas Tomasek">
+  <meta name="description" content="game store prototype">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Gamestore</title>
+  <link rel="stylesheet" href="/css/index.css">
+</head>
+
+<body>
+  
+ <header>
+    <h1>GameStore</h1>
+    <div class="logo"><img src="img/Game logo by Legend Art on @creativemarket.jpeg" width="20%" alt="logo"></div>
+  <nav class="store-navigation">
+    <div class="top-bar">
+      <ul class=" store-list">
+        <li ><a class="store-links"href="#">store</a> </li>
+        <li ><a class="store-links" href="#"> community</a></li>
+        <li ><a class="store-links" href="#">about</a> </li>
+      </ul>
+    </div>
+  </nav>
+ </header>
+
+  <main>
+    <div class="store-second-nav">
+      <ul class="store-content-list">
+        <li> <a class="second-store-links" id="yr-store-btn" href="#"> your store </a></li>
+        <li><a class="second-store-links"  id="game-menu-btn" href="#">games </a></li>
+         <li><a class="second-store-links" href="#">news</a></li>
+         <li> 
+          <label for="gameName">Search</label>
+           <input type="text" name="gameName" id="gameName"value="">
+           </li>
+
+      </ul>
+    </div>
+    <div class="your-store ">
+      <ul class="your-store-menu closed ">
+        <li><a class="menu-links" href="#"> your games</a></li>
+        <li><a class="menu-links" href="#"> history</a></li>
+        <li><a class="menu-links" href="#">store|home</a></li>
+      </ul>
+    </div>
+    <div class="games-menu">
+      <ul class="game-category closed2">
+        <li class="game-links">action/adventure</li>
+        <li class="game-links">rpg</li>
+        <li class="game-links">FPS</li>
+        <li class="game-links">horror</li>
+        <li class="game-links">platformers</li>
+        <li class="game-links">racing</li>
+        <li class="game-links">simulation</li>
+      </ul> 
+    </div>
+    
+    <label class="category" for="developerCategory">Category:</label>
+    <select name="developers" id="developerCategory">
+      <option value="all"> All Developers</option>
+      <option value="EA">EA</option>
+      <option value="Ubisoft">Ubisoft</option>
+      <option value="Blizzard">Blizzard</option>
+    </select>
+   
+
+    <section id="games" class="games">
+    
+    </section>
+
+   
+  </main>
+
+  <footer>
+      
+      <div class="policy-links">
+        <ul class="information-list" >
+        <li><a class="info" href="#">policy</a></li>
+        <li><a class="info" href="#">help</a></li>
+        <li><a class="info" href="#">more information</a></li>
+      </ul></div>
+
+     <h4>follow us on social media:</h4>
+      <div class="social-media-block">
+        <li class="social-media-links"><img width="40px" src="img/facebook-logo copy.png" alt="facebook"></li>
+        <li class="social-media-links"><img width="40px" src="/img/Instagram-logo copy.png" alt="instagram"></li>
+        <li class="social-media-links"><img width="40px" src="/img/twitter-logo copy.png" alt="twitter"><li>
+      </div>
+      <p class="copyright"> &copy; Copyright Gamestore 2019.All rights reserved </p>
+  </footer>
+
+
+  <script type="text/javascript" src="/js/index.js"></script>
+</body>
+
+</html>
