@@ -7,7 +7,7 @@ const games = [
     developer: `Blizzard`,
     price: 60,
     reviews:`positive`,
-    image: `/img/destiny-img.jpeg`    
+    image: `img/destiny-img.jpeg`    
   },
 //2
   {
@@ -15,7 +15,7 @@ const games = [
     developer: `EA Sport`,
     price: 40,
     reviews:`mixed`,
-    image: '/img/fifa-19.png'
+    image: `img/fifa-19.png`
   },
 //3
   {
@@ -23,7 +23,7 @@ const games = [
     developer: `Activsion`,
     price: 70,
     reviews:`mostly positive`,
-    image: `/img/call-of-duty.jpeg`
+    image: `img/call-of-duty.jpeg`
   },
  //4 
   {
@@ -31,7 +31,7 @@ const games = [
     developer: `Rockstar Games`,
     price: 39.99,
     reviews:`positive`,
-    image:`/img/gta-5.jpeg`
+    image:`img/gta-5.jpeg`
 
   },
 //5
@@ -40,7 +40,7 @@ const games = [
     developer: `Ubisoft`,
     price: 11.99,
     reviews:`positive`,
-    image: `/img/ranibow-six-siege.jpeg`
+    image: `img/ranibow-six-siege.jpeg`
 
   },
 //6  
@@ -49,7 +49,7 @@ const games = [
     developer: `EA`,
     price: 70,
     reviews:`mostly positive`,
-    image: `/img/need-for-speed.jpeg`
+    image: `img/need-for-speed.jpeg`
 
   },
 //7  
@@ -58,7 +58,7 @@ const games = [
     developer: `Microsoft`,
     price: 60,
     reviews:`positive`,
-    image: `/img/halo-infinity.jpeg`
+    image: `img/halo-infinity.jpeg`
   },
 //8
   {
@@ -66,7 +66,7 @@ const games = [
     developer:`CD Project Red`,
     price: 30,
     reviews: `positive`,
-    image: `/img/witcher-3.jpeg`
+    image: `img/witcher-3.jpeg`
   },
  //9 
   {
@@ -74,7 +74,7 @@ const games = [
     developer:`Capcom`,
     price: 49.99,
     reviews: `mostly positive`,
-    image: `/img/resident-evil.jpeg`
+    image: `img/resident-evil.jpeg`
   },
   //10
   {
@@ -82,7 +82,7 @@ const games = [
     developer:`CD Project Red`,
     price: 80,
     reviews: `very positive`,
-    image: `/img/cyber-punk-2077-2.jpeg`
+    image: `img/cyber-punk-2077-2.jpeg`
   },
   //11
   {
@@ -90,7 +90,7 @@ const games = [
     developer:`10 Chambers Collective`,
     price: 15,
     reviews: ` positive`,
-    image: `/img/gtfo.jpeg`
+    image: `img/gtfo.jpeg`
   },
   //12
   {
@@ -98,7 +98,7 @@ const games = [
     developer:`Rockstar games`,
     price: 80,
     reviews: ` positive`,
-    image: `/img/rd2.png`
+    image: `img/rd2.png`
   },
   //13
   {
@@ -106,7 +106,7 @@ const games = [
     developer:`Mandai Namco`,
     price: 27.99,
     reviews: ` mixed`,
-    image: `/img/tekken.jpeg`
+    image: `img/tekken.jpeg`
   },
   //14
   {
@@ -114,7 +114,7 @@ const games = [
     developer:`Microsoft`,
     price: 70,
     reviews: ` positive`,
-    image: `/img/forza.jpeg`
+    image: `img/forza.jpeg`
   },
   //15
   {
@@ -122,7 +122,7 @@ const games = [
     developer:`Ten Cent`,
     price: 49.99,
     reviews: ` mostly positive`,
-    image: `/img/pubg.jpeg`
+    image: `img/pubg.jpeg`
   },
   //16
   {
@@ -130,7 +130,7 @@ const games = [
     developer:`Epic Games`,
     price: 0,
     reviews: ` positive`,
-    image: "/img/fortnite.jpeg"
+    image: "img/fortnite.jpeg"
   },
   //17
   {
@@ -138,7 +138,7 @@ const games = [
     developer:`Capcom`,
     price: 80,
     reviews: ` mixed`,
-    image: `/img/dead-or-live.png`
+    image: `img/dead-or-live.png`
   },
   //18
   {
@@ -146,7 +146,7 @@ const games = [
     developer:`Rockstar games`,
     price: 69.99,
     reviews: ` positive`,
-    image: `/img/bordelands.png`
+    image: `img/bordelands.png`
   },
   //19
   {
@@ -154,7 +154,7 @@ const games = [
     developer:`Santa Monica studio`,
     price: 60,
     reviews: ` positive`,
-    image: `/img/god-of-war.jpeg`
+    image: `img/god-of-war.jpeg`
   },
   //20
   {
@@ -162,7 +162,7 @@ const games = [
     developer:`Capcom`,
     price: 35,
     reviews: ` mixed`,
-    image: `/img/dead rising 4.jpeg`
+    image: `img/dead rising 4.jpeg`
   }
 ]
 

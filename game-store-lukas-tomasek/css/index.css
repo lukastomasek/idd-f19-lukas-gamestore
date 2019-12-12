@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Black+Ops+One&display=swap');
 :root{
   --nav-color: #3E4759;
   --nav-color-2: #2D2E33;
@@ -8,6 +8,7 @@
   --review-colour: #FFFF05;
   --roboto-font: 'Roboto', sans-serif;
   --heading-font: 'Anton', sans-serif;
+  --black-ops : 'Black Ops One', cursive;
 }
 
 label{
@@ -16,7 +17,9 @@ label{
 
 h1{
   text-align: center;
-  font-family: var(--heading-font);
+  font-family: var(--black-ops);
+  color: white;
+  font-size:5em;
   
 }
 h2{
@@ -53,8 +56,7 @@ footer{
 }
 
 body{
-  background-image:
-   url(/img/Explore\ the\ wilds\ of\ Skyrim\ in\ these\ slick\ new\ art\ prints.jpeg);
+  background-image: url(img/bg.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: center; 
@@ -210,7 +212,7 @@ z-index: 9999999;
   border: thin solid whitesmoke;
   width: 200px;
   height: 300px;
-  background-image: url(/img/Sung\ Choi\ _\ Concept\ Art\ World.jpeg);
+  background-image: url(img/Sung\ Choi\ _\ Concept\ Art\ World.jpeg);
   background-size: cover;
   opacity: 0.9;
   
