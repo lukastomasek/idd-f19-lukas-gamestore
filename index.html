@@ -29,12 +29,17 @@
   <main>
     <div class="store-second-nav">
       <ul class="store-content-list">
+        <li><button class="cart" >
+          <img class="cart-image" src="img/cart.png"  alt="cart-img">
+          <div class="num" id="cartNum"></div>
+        </button></li>
         <li> <a class="second-store-links" id="yr-store-btn" href="#"> your store </a></li>
         <li><a class="second-store-links"  id="game-menu-btn" href="#">games </a></li>
          <li><a class="second-store-links" href="#">news</a></li>
          <li> 
           <label for="gameName">Search</label>
            <input type="text" name="gameName" id="gameName"value="">
+           <input type="button" name="backBtn" id="backBtn" value="Back">
            </li>
 
       </ul>
@@ -59,7 +64,7 @@
     </div>
     
     <label class="category" for="developerCategory">Category:</label>
-    <select name="developers" id="developerCategory">
+    <select name="developers" class="options" id="developerCategory">
       <option value="all"> All Developers</option>
       <option value="EA">EA</option>
       <option value="Ubisoft">Ubisoft</option>

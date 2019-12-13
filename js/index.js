@@ -170,7 +170,7 @@ const games = [
 //#endregion
 
 var isToggleOn = false;
-
+let numInCart = 0;
 
 function addHtmlData(game){
 
@@ -186,7 +186,7 @@ function addHtmlData(game){
           <li><a class="publisher" href="#"> ${game.developer}</a></li>
           <li class = " review"> ${game.reviews}</li>
           <li class = "game-info cost" >price:$ ${game.price}</li>
-          <div class="btn"><button class="card-btn">add to card</button></div>
+          <div class="btn"><button class="card-btn" id="addBtn" >add to card</button></div>
         </ul>
 
       </div>`;
@@ -258,6 +258,15 @@ function searchGameName(){
 
 }
 
+function addProductsToCart(){
+  numInCart += 1;
+  document.getElementById(`cartNum`).innerHTML = `${numInCart}`;
+}
+
+function goBack(){
+  window.history.back();
+}
+
 //#endregion
 
 //print full set 
@@ -265,11 +274,10 @@ showGames(games);
 
 //showGames(games.filter(showDeals));
 
-
-
+document.getElementById('backBtn').addEventListener('click', goBack);
 document.getElementById('yr-store-btn').addEventListener('click', toggleStoreMenu);
 document.getElementById('game-menu-btn').addEventListener('click',toggleGameMenu);
-
+document.getElementById('addBtn').addEventListener('click',addProductsToCart);
 // dropdown
 document.getElementById('developerCategory').addEventListener('change',loadDevCategory);
 
