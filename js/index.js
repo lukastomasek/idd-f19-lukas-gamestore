@@ -171,6 +171,7 @@ const games = [
 
 var isToggleOn = false;
 let numInCart = 0;
+let maxProducts = 6;
 
 function addHtmlData(game){
 
@@ -261,6 +262,10 @@ function searchGameName(){
 function addProductsToCart(){
   numInCart += 1;
   document.getElementById(`cartNum`).innerHTML = `${numInCart}`;
+
+  if(numInCart >= maxProducts){
+    alert(`we are out of stock !`);
+  }
 }
 
 function goBack(){

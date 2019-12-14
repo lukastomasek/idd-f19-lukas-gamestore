@@ -295,6 +295,11 @@ z-index: 9999999;
   padding-left: 20%;
 }
 
+.second-store-links:hover{
+  cursor: pointer;
+  zoom: 1.2em;
+}
+
 .copyright{
   color: white;
   font-family: var(--roboto-font);
@@ -361,7 +366,7 @@ display: inline;
    display:  block;
   
 }
-  .store-second-nav{   
+ .store-second-nav{   
     background-color: var(--nav-color);
   }
 
@@ -371,7 +376,7 @@ display: inline;
     padding: 0em;
     grid-gap: 1em;
   }
-.options{
+  .options{
   background-color: white;
 }
   
